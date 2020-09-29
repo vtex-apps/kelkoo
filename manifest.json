@@ -1,9 +1,9 @@
 {
-  "name": "YOURAPPNAME",
+  "name": "kelkoo-pixel",
   "vendor": "vtex",
   "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "title": "Kelkoo first party integration",
+  "description": "",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "support": {
@@ -11,9 +11,7 @@
     },
     "free": true,
     "type": "free",
-    "availableCountries": [
-      "*"
-    ]
+    "availableCountries": ["*"]
   },
   "builders": {
     "react": "3.x",
@@ -25,12 +23,17 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "YOUR APP NAME",
+    "title": "Kelkoo",
     "type": "object",
     "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+      "merchantId": {
+        "title": "Shop ID",
+        "description": "Enter the unique ID representing your shop within the Kelkoo system (COMID_VALUE)",
+        "type": "string"
+      },
+      "countryCode": {
+        "title": "Product country identifier",
+        "description": "Enter the 2-letter country code (lower case) for the country on which your products are listed on Kelkoo (COUNTRY_CODE)",
         "type": "string"
       }
     }
