@@ -1,6 +1,6 @@
 📢 Use this project, [contribute](https://github.com/vtex-apps/CHANGEME) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
 
-# Kelkoo pixel app
+# Kelkoo app
 
 <!-- DOCS-IGNORE:start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -23,7 +23,7 @@ It is possible to install in your store either by using App Store or the VTEX IO
 
 ### Using VTEX IO Toolbelt
 
-1. [Install](https://vtex.io/docs/recipes/development/installing-an-app/) the `vtex.kelkoo-pixel@1.x` app. You can confirm that the app has now been installed by running `vtex ls` again. 
+1. [Install](https://vtex.io/docs/recipes/development/installing-an-app/) the `vtex.kelkoo@1.x` app. You can confirm that the app has now been installed by running `vtex ls` again. 
 2. Access the **Apps** section in your account's admin page and look for the Kelkoo box. Once you find it, click on the box.
 3. Fill in the `Kelkoo` field with your Kelkoo Shop ID and Kelkoo product country identifier.
 4. Click on **Save**.
