@@ -8,7 +8,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-Kelkoo first party app
+Kelkoo first party integration app. The [solution](https://www.kelkoo.co.uk/) provides price comparison sites using shopping intent data and cutting-edge technology to access the best offers from a variety of online shops.
 
 ## Configuration
 
@@ -16,22 +16,27 @@ It is possible to install in your store either by using App Store or the VTEX IO
 
 ### Using VTEX App Store
 
-1. Access the **Apps** section in your account's admin page and look for the Kelkoo box;
-2. Then, click on the **Install** button;
-3. You'll see a warning message about needing to enter the necessary configurations. Scroll down and type in your Kelkoo Shop ID and Kelkoo product country identifier in the `Kelkoo` field.
+1. Access the **Apps** section in your account's admin page and look for the Kelkoo box.
+2. Click on the **Install** button.
+3. Fill out the mandatory fields with your Kelkoo shop ID and the product country identifier.
 4. Click on **Save**.
+
+> ⚠️ *The shop ID and the product country identifier should be provided by Kelkoo.*
 
 ### Using VTEX IO Toolbelt
 
 1. [Install](https://vtex.io/docs/recipes/development/installing-an-app/) the `vtex.kelkoo@1.x` app. You can confirm that the app has now been installed by running `vtex ls` again. 
-2. Access the **Apps** section in your account's admin page and look for the Kelkoo box. Once you find it, click on the box.
-3. Fill in the `Kelkoo` field with your Kelkoo Shop ID and Kelkoo product country identifier.
-4. Click on **Save**.
+2. Access the **Apps** section in your account's admin page and look for the Kelkoo box. 
+3. Click on the **Install** button.
+4. Fill out the mandatory fields with your Kelkoo shop ID and the product country identifier.
+5. Click on **Save**.
+
+> ⚠️ *The shop ID and the product country identifier should be provided by Kelkoo.*
 
 <!-- DOCS-IGNORE:start -->
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
