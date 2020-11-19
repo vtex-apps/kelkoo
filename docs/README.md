@@ -18,17 +18,17 @@ It is possible to install in your store either by using App Store or the VTEX IO
 
 1. Access the **Apps** section in your account's admin page and look for the Kelkoo box.
 2. Click on the **Install** button.
-3. Fill out the mandatory fields with your Kelkoo shop ID and the product country identifier.
+3. Type in your Kelkoo shop ID and the product country identifier in the `kelkoo` field.
 4. Click on **Save**.
 
 > ⚠️ *The shop ID and the product country identifier should be provided by Kelkoo.*
 
 ### Using VTEX IO Toolbelt
 
-1. [Install](https://vtex.io/docs/recipes/development/installing-an-app/) the `vtex.kelkoo@1.x` app. You can confirm that the app has now been installed by running `vtex ls` again. 
+1. [Install](https://vtex.io/docs/recipes/development/installing-an-app/) the `vtex.kelkoo@1.x` app. You can confirm that the app has now been installed by running `vtex ls` in your terminal. 
 2. Access the **Apps** section in your account's admin page and look for the Kelkoo box. 
 3. Click on the **Install** button.
-4. Fill out the mandatory fields with your Kelkoo shop ID and the product country identifier.
+4. Type in your Kelkoo shop ID and the product country identifier in the `kelkoo` field.
 5. Click on **Save**.
 
 > ⚠️ *The shop ID and the product country identifier should be provided by Kelkoo.*
